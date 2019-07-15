@@ -1,0 +1,252 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 3,
+  "numPassedTests": 10,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTotalTestSuites": 3,
+  "numTotalTests": 10,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1563195316348,
+  "success": true,
+  "testResults": [
+    {
+      "console": [
+        {
+          "message": "response",
+          "origin": "F:\\workspace\\rnd\\rest-api-lab\\spec\\auth\\RegisterSpec.ts:19",
+          "type": "log"
+        },
+        {
+          "message": "{ id: 4, token: 'QpwL5tke4Pnpja7X4' }",
+          "origin": "F:\\workspace\\rnd\\rest-api-lab\\spec\\auth\\RegisterSpec.ts:20",
+          "type": "log"
+        }
+      ],
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "perfStats": {
+        "end": 1563195323950,
+        "start": 1563195317886
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "F:\\workspace\\rnd\\rest-api-lab\\spec\\auth\\RegisterSpec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Auth Regitrstion API"
+          ],
+          "duration": 748,
+          "failureMessages": [],
+          "fullName": "Auth Regitrstion API should respond with a json 200 response with POST Method on successful Registration",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 200 response with POST Method on successful Registration"
+        },
+        {
+          "ancestorTitles": [
+            "Auth Regitrstion API"
+          ],
+          "duration": 694,
+          "failureMessages": [],
+          "fullName": "Auth Regitrstion API should respond with a json 400 response with POST Method on missing password while Registration",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 400 response with POST Method on missing password while Registration"
+        }
+      ],
+      "sourceMaps": {},
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "console": [],
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "perfStats": {
+        "end": 1563195324396,
+        "start": 1563195317811
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "F:\\workspace\\rnd\\rest-api-lab\\spec\\users\\UsersSpec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Users API Test"
+          ],
+          "duration": 739,
+          "failureMessages": [],
+          "fullName": "Users API Test should respond with a json 200 response with GET Method",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 200 response with GET Method"
+        },
+        {
+          "ancestorTitles": [
+            "Users API Test"
+          ],
+          "duration": 703,
+          "failureMessages": [],
+          "fullName": "Users API Test should respond with a json 201 response with POST Method",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 201 response with POST Method"
+        },
+        {
+          "ancestorTitles": [
+            "Users API Test"
+          ],
+          "duration": 683,
+          "failureMessages": [],
+          "fullName": "Users API Test should respond with a json 200 response with PUT Method",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 200 response with PUT Method"
+        },
+        {
+          "ancestorTitles": [
+            "Users API Test"
+          ],
+          "duration": 731,
+          "failureMessages": [],
+          "fullName": "Users API Test should respond with a json 200 response with PATCH Method",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 200 response with PATCH Method"
+        },
+        {
+          "ancestorTitles": [
+            "Users API Test"
+          ],
+          "duration": 695,
+          "failureMessages": [],
+          "fullName": "Users API Test should respond with a json 204 response with DELETE Method",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 204 response with DELETE Method"
+        }
+      ],
+      "sourceMaps": {},
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "console": [
+        {
+          "message": "response",
+          "origin": "F:\\workspace\\rnd\\rest-api-lab\\spec\\auth\\LoginSpec.ts:19",
+          "type": "log"
+        },
+        {
+          "message": "{ token: 'QpwL5tke4Pnpja7X4' }",
+          "origin": "F:\\workspace\\rnd\\rest-api-lab\\spec\\auth\\LoginSpec.ts:20",
+          "type": "log"
+        }
+      ],
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "perfStats": {
+        "end": 1563195324735,
+        "start": 1563195317777
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "F:\\workspace\\rnd\\rest-api-lab\\spec\\auth\\LoginSpec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Auth Login API"
+          ],
+          "duration": 791,
+          "failureMessages": [],
+          "fullName": "Auth Login API should respond with a json 200 response with POST Method on successful Login",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 200 response with POST Method on successful Login"
+        },
+        {
+          "ancestorTitles": [
+            "Auth Login API"
+          ],
+          "duration": 705,
+          "failureMessages": [],
+          "fullName": "Auth Login API should respond with a json 400 response with POST Method on missing password",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 400 response with POST Method on missing password"
+        },
+        {
+          "ancestorTitles": [
+            "Auth Login API"
+          ],
+          "duration": 681,
+          "failureMessages": [],
+          "fullName": "Auth Login API should respond with a json 400 response with POST Method on wrong email id",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should respond with a json 400 response with POST Method on wrong email id"
+        }
+      ],
+      "sourceMaps": {},
+      "skipped": false,
+      "leaks": false
+    }
+  ],
+  "wasInterrupted": false
+}
